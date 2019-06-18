@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+    <!-- #Content -->
+    <!-- Contact -->
+    <section>
+        <div class="section-wrapper p-t-57 p-b-60">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="contact">
+                            <div class="title">
+                                <h2>Contact</h2>
+                                <p>Send us an email vulputate bibendum justo sed, tincidunt quisque dictum eget dolor vel maximus.</p>
+                            </div>
+                            <div class="messages" id="status"></div>
+                            <form class="contact-form" id="contact-form">
+                                <div class="form-group au-form w-30">
+                                    <div class="help-block with-errors"></div>
+                                    <input type="text" placeholder="Your Name" id="name" name="name" required data-error="Name is required.">
+                                </div>
+                                <div class="form-group au-form w-30">
+                                    <div class="help-block with-errors"></div>
+                                    <input type="email" placeholder="Your Email" id="email" name="email" required data-error="Please, enter a valid email.">
+                                </div>
+                                <div class="form-group au-form w-30">
+                                    <div class="help-block with-errors"></div>
+                                    <input type="text" placeholder="Your Phone" id="phone" name="phone" required data-error="Phone is required.">
+                                </div>
+                                <div class="form-group au-form w-100">
+                                    <div class="help-block with-errors"></div>
+                                    <textarea rows="7" placeholder="Your Messages" id="msg" name="msg" required data-error="Please, leave us a message"></textarea>
+                                </div>
+                                <div class="form-group au-form w-100">
+                                    <div class="au-checkbox">
+                                        <input type="checkbox">
+                                        <span></span>
+                                        <label>Send copy to yourself</label>
+                                    </div>
+                                </div>
+                                <div class="form-group au-form">
+                                    <button class="btn btn-primary" id="contactBtn" type="submit">Send Email</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact -->
+    <!-- Map -->
+    <section>
+        <div class="section-wrapper">
+            <div id="map-canvas" style="height: 400px;"></div>
+        </div>
+    </section>
+    <!-- End Map -->
+
+  
+  

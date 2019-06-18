@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="~/Public/images/icon/favicon.ico">
+    <title>Home Page 1</title>
+
+    <link rel="stylesheet" href="~/Public/css/settings.css">
+    <link rel="stylesheet" href="~/Public/css/layers.css">
+    <link rel="stylesheet" href="~/Public/css/navigation.css">
+    <link rel="stylesheet" href="~/Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Public/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Public/css/slick.css">
+    <link rel="stylesheet" href="~/Public/css/owl.carousel.min.css">
+
+    <!-- Global -->
+    <link rel="stylesheet" href="~/Public/css/theme.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="~/Public/css/font-face.min.css">
+
+    <!-- Color -->
+    <link rel="stylesheet" href="~/Public/css/color-picker.min.css">
+    <link rel="stylesheet" href="~/Public/css/blue.min.css" id="color-picker">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loading">
+        <div class="load">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- End Pre Loader -->
+    <!-- Header -->
+    <header>
+        <div class="header-wrapper">
+            <!-- Desktop Menu -->
+            <div class="header-wrapper-desktop d-none d-lg-block">
+                <div class="header">
+                    <div class="container">
+                        <div class="main-header">
+                            <div class="main-header-container">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="~/Public/images/icon/logo_01.png" alt="Bemax">
+                                    </a>
+                                </div>
+                                <nav class="header-navbar">
+                                    <ul class="navbar-menu">
+                                        <li class="active">
+                                            <a href="@Url.Action("Index","Home")">Index</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="index.html">Home Page 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index2.html">Home Page 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index3.html">Home Page 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index4.html">Home Page 4</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index5.html">Home Page 5</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index6.html">Home Page 6</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("Index","About")">About</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="typography.html">Typography</a>
+                                                </li>
+                                                <li>
+                                                    <a href="element.html">Element</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Third Menu</a>
+                                                    <ul class="sub-menu">
+                                                        <li>
+                                                            <a href="#">Third Menu 1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Third Menu 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("Index","Contact")">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="header-button">
+                                    <div class="header-line">|</div>
+                                    <div class="header-search">
+                                        <span data-toggle="modal" data-target="#search-modal">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Desktop Menu -->
+            <!-- Mobile Menu -->
+            <div class="header-wrapper-mobile d-block d-lg-none">
+                <div class="header-mobile__bar">
+                    <div class="header-mobile__logo">
+                        <img src="~/Public/images/icon/logo_01.png" alt="Bemax">
+                    </div>
+                    <div class="header-mobile__button">
+                        <span class="humburger-box">
+                            <span class="hamburger__inner"></span>
+                        </span>
+                    </div>
+                </div>
+                <nav class="header-mobile__navbar">
+                    <ul class="navbar-menu">
+                        <li>
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="index.html">Home Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">Home Page 2</a>
+                                </li>
+                                <li>
+                                    <a href="index3.html">Home Page 3</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">Home Page 4</a>
+                                </li>
+                                <li>
+                                    <a href="index5.html">Home Page 5</a>
+                                </li>
+                                <li>
+                                    <a href="index6.html">Home Page 6</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="element.html">Element</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Menu</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="404.html">404 Page</a>
+                                </li>
+                                <li>
+                                    <a href="coming.html">Coming Soon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="port-1.html">Port Grid 1</a>
+                                </li>
+                                <li>
+                                    <a href="port-2.html">Port Grid 2</a>
+                                </li>
+                                <li>
+                                    <a href="port-3.html">Port Grid 3</a>
+                                </li>
+                                <li>
+                                    <a href="port-detail.html">Port Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="blog-grid.html">Blog Grid</a>
+                                </li>
+                                <li>
+                                    <a href="blog-list.html">Blog List</a>
+                                </li>
+                                <li>
+                                    <a href="blog-detail.html">Blog Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Mobile Menu -->
+        </div>
+    </header>
+    <!-- End Header -->
+    
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-style-1">
+                <div class="main-footer py-45">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        <div class="logo">
+                                            <img src="~/Public/images/icon/logo_02.png" alt="Bemax">
+                                        </div>
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-t-7 m-b-24">Bemax is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
+                                        <nav class="social-media">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Features
+                                    </div>
+                                    <div class="footer-content">
+                                        <ul class="list-style">
+                                            <li>
+                                                <a href="#">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Our Story</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terma & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sites Map</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Contact us
+                                    </div>
+                                    <div class="footer-content">
+                                        <p>Address: 379 5th Ave New York, NYC 10018, United States</p>
+                                        <p>Phone: +(112) 345 6999</p>
+                                        <p>Fax: +(112) 345 8999</p>
+                                        <p>Email: contact@bemax.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Newslleter
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-b-24">Subscribe to Newsletters and Stay informed about our news and events</p>
+                                        <form class="footer-form">
+                                            <input type="text" placeholder="Your Email">
+                                            <input type="submit" value="Subcribe">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <p>Copyright © 2018 Designed by AuThemes. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Modal Search -->
+    
+
+
+    <script src="~/Public/js/jquery.min.js"></script>
+    <script src="~/Public/js/bootstrap.min.js"></script>
+    <script src="~/Public/js/jquery-ui.min.js"></script>
+    <script src="~/Public/js/jquery.easing.min.js"></script>
+    <script src="~/Public/js/mdb.min.js"></script>
+    <script src="~/Public/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/Public/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="~/Public/js/revolution.extension.actions.min.js"></script>
+    <script src="~/Public/js/revolution.extension.carousel.min.js"></script>
+    <script src="~/Public/js/revolution.extension.kenburn.min.js"></script>
+    <script src="~/Public/js/revolution.extension.layeranimation.min.js"></script>
+    <script src="~/Public/js/revolution.extension.migration.min.js"></script>
+    <script src="~/Public/js/revolution.extension.navigation.min.js"></script>
+    <script src="~/Public/js/revolution.extension.parallax.min.js"></script>
+    <script src="~/Public/js/revolution.extension.slideanims.min.js"></script>
+    <script src="~/Public/js/revolution.extension.video.min.js"></script>
+    <script src="~/Public/js/owl.carousel.min.js"></script>
+    <script src="~/Public/js/lightcase.js"></script>
+
+    <script src="~/Public/js/config-slider.min.js"></script>
+    <script src="~/Public/js/config-owl-carousel.min.js"></script>
+    <script src="~/Public/js/theme.min.js"></script>
+
+    <script src="~/Public/js/color-picker.min.js"></script>
+</body>
+
+</html>

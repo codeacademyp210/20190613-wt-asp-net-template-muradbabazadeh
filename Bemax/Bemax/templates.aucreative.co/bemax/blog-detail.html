@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from templates.aucreative.co/bemax/blog-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Jun 2019 06:30:07 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/icon/favicon.ico">
+    <title>Blog Detail</title>
+
+    <link rel="stylesheet" href="vendor/mbbootstrap/mdb.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/dist/css/owl.carousel.min.css">
+
+    <!-- Global -->
+    <link rel="stylesheet" href="css/theme.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/font-face.min.css">
+
+    <link rel="stylesheet" href="css/color-picker.min.css">
+    <link rel="stylesheet" href="css/blue.min.css" id="color-picker">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loading">
+        <div class="load">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- End Pre Loader -->
+
+    <!-- Header -->
+    <header>
+        <div class="header-wrapper">
+            <!-- Desktop Menu -->
+            <div class="header-wrapper-desktop d-none d-lg-block">
+                <div class="header header-style-3">
+                    <div class="container">
+                        <div class="main-header">
+                            <div class="main-header-container">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="images/icon/logo_01.png" alt="Bemax">
+                                    </a>
+                                </div>
+                                <nav class="header-navbar">
+                                    <ul class="navbar-menu">
+                                        <li class="active">
+                                            <a href="#">Home</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="index.html">Home Page 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index2.html">Home Page 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index3.html">Home Page 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index4.html">Home Page 4</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index5.html">Home Page 5</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index6.html">Home Page 6</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Features</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="typography.html">Typography</a>
+                                                </li>
+                                                <li>
+                                                    <a href="element.html">Element</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Third Menu</a>
+                                                    <ul class="sub-menu">
+                                                        <li>
+                                                            <a href="#">Third Menu 1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Third Menu 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pages</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="about.html">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="service.html">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="shop.html">Shop</a>
+                                                </li>
+                                                <li>
+                                                    <a href="404.html">404 Page</a>
+                                                </li>
+                                                <li>
+                                                    <a href="coming.html">Coming Soon</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Portfolio</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="port-1.html">Port Grid 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="port-2.html">Port Grid 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="port-3.html">Port Grid 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="port-detail.html">Port Detail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="blog-grid.html">Blog Grid</a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-list.html">Blog List</a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-detail.html">Blog Detail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="header-info">
+                                    <div class="header-info-item">
+                                        <i class="fa fa-phone"></i>0112-826-2789
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <div class="header-line">|</div>
+                                    <div class="header-search">
+                                        <span data-toggle="modal" data-target="#search-modal">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </div>
+                                    <div class="header-bar">
+                                        <span data-toggle="modal" data-target="#menusidebar">
+                                            <i class="fa fa-bars"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Desktop Menu -->
+
+            <!-- Mobile Menu -->
+            <div class="header-wrapper-mobile d-block d-lg-none">
+                <div class="header-mobile__bar">
+                    <div class="header-mobile__logo">
+                        <img src="images/icon/logo_01.png" alt="Bemax">
+                    </div>
+                    <div class="header-mobile__button">
+                        <span class="humburger-box">
+                            <span class="hamburger__inner"></span>
+                        </span>
+                    </div>
+                </div>
+                <nav class="header-mobile__navbar">
+                    <ul class="navbar-menu">
+                        <li>
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="index.html">Home Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">Home Page 2</a>
+                                </li>
+                                <li>
+                                    <a href="index3.html">Home Page 3</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">Home Page 4</a>
+                                </li>
+                                <li>
+                                    <a href="index5.html">Home Page 5</a>
+                                </li>
+                                <li>
+                                    <a href="index6.html">Home Page 6</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="element.html">Element</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Menu</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="404.html">404 Page</a>
+                                </li>
+                                <li>
+                                    <a href="coming.html">Coming Soon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="port-1.html">Port Grid 1</a>
+                                </li>
+                                <li>
+                                    <a href="port-2.html">Port Grid 2</a>
+                                </li>
+                                <li>
+                                    <a href="port-3.html">Port Grid 3</a>
+                                </li>
+                                <li>
+                                    <a href="port-detail.html">Port Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="blog-grid.html">Blog Grid</a>
+                                </li>
+                                <li>
+                                    <a href="blog-list.html">Blog List</a>
+                                </li>
+                                <li>
+                                    <a href="blog-detail.html">Blog Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Mobile Menu -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- #Content -->
+
+    <!-- Page title -->
+    <section>
+        <div class="section-wrapper" style="background: url(images/bg-image_05.jpg) no-repeat center;">
+            <div class="overlay" data-color="rgba(255,255,255,0.9)"></div>
+            <div class="container">
+                <div class="page-title">
+                    <div class="page-name">
+                        <a href="#">Awesome Blogs</a>
+                    </div>
+                    <nav aria-label="breadcrumb" class="page-links">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Blogs</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">UX Design Trends For 2018</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Page title -->
+
+    <!-- BLog Detail -->
+    <section>
+        <div class="section-wrapper p-t-60 p-b-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="blog-detail">
+                            <div class="blog-container">
+                                <h1 class="h1 blog-title">UX Design Trends For 2018</h1>
+                                <ul class="blog-info">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-clock-o"></i>March 25, 2018</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-user"></i>AuThemes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-comment"></i>16</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-bookmark"></i>UX Design</a>
+                                    </li>
+                                </ul>
+                                <div class="blog-image">
+                                    <img src="images/about_06.jpg" alt="image">
+                                </div>
+                                <h4 class="blog-title-2">UX Design Trends For 2018</h4>
+                                <p class="m-b-27">Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat id. Vivamus interdum urna at sapien varius elementum. Suspendisse
+                                    ut mi felis et interdum libero lacinia vel. Aenean elementum odio ut lorem cursus, eu auctor magna pellentesque. Cras facilisis quam sed rhoncus dapibus. Quisque lorem enim, dictum at magna eu, hendrerit hendrerit arcu.
+                                    Etiam vulputate ac tortor ac gravida. Proin accumsan placerat rutrum. Praesent ut eros ac nisi ultrices rhoncus et nec nunc</p>
+                                <p>Nulla fermentum eros vitae est finibus dapibus. Aliquam porta nulla a elit varius efficitur. In in magna sed turpis venenatis tristique eu eget neque. Duis condimentum libero ornare quam tincidunt interdum. Phasellus porttitor
+                                    nisi ut lectus pellentesque, ut fringilla leo convallis.</p>
+                                <blockquote class="blockquote m-t-23 m-b-26">
+                                    <p class="mb-0">Wullam placerat vehicula pulvinar. Nam convallis euismod maximus. Suspendisse dignissim, ante at posuere cursus, diam nisl viverra felis, vel malesuada ex ante ac urna.</p>
+                                    <cite title="Cheryl Cruz">Cheryl Cruz</cite>
+                                </blockquote>
+                                <p>Duis gravida tempus imperdiet. Vivamus elit vel consequat elementum. Cras consequat lorem non orci sagittis, eget volutpat neque imperdiet. Nam auctor nisi vitae enim accumsan, ac dignissim tortor consequat.</p>
+                                <ul class="about-list">
+                                    <li>
+                                        <i class="fa fa-check-circle"></i>Vestibulum nibh purus, porta non molestie eget, laoreet orci.
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check-circle"></i>Nam malesuada dolor eget aliquet rhoncus
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check-circle"></i>Sed feugiat vestibulum mauris, at ultricies eros feugiat feugiat
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check-circle"></i>Aliquam lacinia urna vulputate molestie volutpat
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check-circle"></i>Aenean et orci eget neque faucibus iaculis feugiat sed sapien.
+                                    </li>
+                                </ul>
+                                <div class="blog-detail-footer">
+                                    <div class="blog-tags">
+                                        <i class="fa fa-tags"></i>
+                                        <a href="#">Development</a>,
+                                        <a href="#">Marketing</a>
+                                    </div>
+                                    <nav class="social-media social-style-3">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="blog-panigation">
+                            <div class="blog-prev">
+                                <a href="#">
+                                    <span>
+                                        <i class="fa fa-angle-double-left"></i>Previous</span>
+                                    <br>10 Ways To Design For The Human Brain
+                                </a>
+                            </div>
+                            <div class="blog-next">
+                                <a href="#">
+                                    <span>Next
+                                        <i class="fa fa-angle-double-right"></i>
+                                    </span>
+                                    <br>Mobile UX And User Expectations
+                                </a>
+                            </div>
+                        </div>
+                        <div class="comment-form">
+                            <div class="title">
+                                <h2>Leave a reply</h2>
+                                <p>You must be logged in to post a comment.</p>
+                            </div>
+                            <form class="contact-form">
+                                <div class="form-group au-form w-50">
+                                    <input type="text" placeholder="Your name">
+                                </div>
+                                <div class="form-group au-form w-50">
+                                    <input type="text" placeholder="Your email">
+                                </div>
+                                <div class="form-group au-form w-100">
+                                    <textarea rows="10">Your Comment</textarea>
+                                </div>
+                                <div class="form-group au-form" style="margin-right: auto;">
+                                    <button>Comment</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="comment-place">
+                            <div class="title">
+                                <h2>3 comments</h2>
+                            </div>
+                            <div class="comment-body">
+                                <div class="comment-content">
+                                    <div class="user-comment">
+                                        <div class="comment-item">
+                                            <div class="author-image">
+                                                <img src="images/user_01.png" alt="au">
+                                            </div>
+                                            <div class="comment-text">
+                                                <p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
+                                                <div class="comment-info">
+                                                    <a href="#" class="author">John Doe</a>
+                                                    <a href="#" class="time">Feb 25, 2018</a>
+                                                    <a href="#" class="reply">
+                                                        <i class="fa fa-share"></i>Reply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-comment reply">
+                                        <div class="comment-item">
+                                            <div class="author-image">
+                                                <img src="images/user_02.png" alt="au">
+                                            </div>
+                                            <div class="comment-text">
+                                                <p>Nullam ipsum urna, dapibus sed justo sed, imperdiet malesuada commodo, eros eleifend laoreet fringilla,</p>
+                                                <div class="comment-info">
+                                                    <a href="#" class="author">John Doe</a>
+                                                    <a href="#" class="time">Feb 25, 2018</a>
+                                                    <a href="#" class="reply">
+                                                        <i class="fa fa-share"></i>Reply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-comment">
+                                        <div class="comment-item">
+                                            <div class="author-image">
+                                                <img src="images/user_03.png" alt="au">
+                                            </div>
+                                            <div class="comment-text">
+                                                <p>Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
+                                                <div class="comment-info">
+                                                    <a href="#" class="author">John Doe</a>
+                                                    <a href="#" class="time">Feb 25, 2018</a>
+                                                    <a href="#" class="reply">
+                                                        <i class="fa fa-share"></i>Reply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="au-widget">
+                            <div class="catalog">
+                                <div class="section-title justify-content-start">
+                                    <h3 class="text-left">Categories</h3>
+                                    <div class="title-border m-b-24"></div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>Business Market</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>Socials Network</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>Team Work</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>Product Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>Socials Ecommerce</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="poster">
+                                <p>Amazing Theme!
+                                    <br>You can customize it very easy to fit your needs.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="catalog">
+                                <div class="section-title justify-content-start">
+                                    <h3 class="text-left">Archive</h3>
+                                    <div class="title-border m-b-24"></div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>July 2018</a>
+                                        <span>(26)</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>June 2018</a>
+                                        <span>(21)</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>May 2018</a>
+                                        <span>(32)</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>April 2018</a>
+                                        <span>(22)</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>March 2018</a>
+                                        <span>(35)</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>Febuary 2018</a>
+                                        <span>(9)</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-right"></i>January 2018</a>
+                                        <span>(29)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog List -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-style-1">
+                <div class="main-footer py-45">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        <div class="logo">
+                                            <img src="images/icon/logo_02.png" alt="Bemax">
+                                        </div>
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-t-7 m-b-24">Bemax is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
+                                        <nav class="social-media">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Features
+                                    </div>
+                                    <div class="footer-content">
+                                        <ul class="list-style">
+                                            <li>
+                                                <a href="#">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Our Story</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terma & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sites Map</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Contact us
+                                    </div>
+                                    <div class="footer-content">
+                                        <p>Address: 379 5th Ave New York, NYC 10018, United States</p>
+                                        <p>Phone: +(112) 345 6999</p>
+                                        <p>Fax: +(112) 345 8999</p>
+                                        <p>Email: contact@bemax.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Newslleter
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-b-24">Subscribe to Newsletters and Stay informed about our news and events</p>
+                                        <form class="footer-form">
+                                            <input type="text" placeholder="Your Email">
+                                            <input type="submit" value="Subcribe">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <p>Copyright © 2018 Designed by AuThemes. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade right" id="menusidebar" tabindex="-1" role="dialog" aria-labelledby="menusidebar" aria-hidden="true">
+        <div class="modal-dialog modal-side modal-top-right" role="document">
+            <div class="modal-content">
+                <div class="close-sidebar">
+                    <span data-dismiss="modal"></span>
+                </div>
+                <div class="sidebar-menu-list">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Shopping Cart</a>
+                        </li>
+                        <li>
+                            <a href="#">Check Out</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- MOdal Search -->
+    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form>
+                    <input type="text" placeholder="Search here...">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Search -->
+
+    <!-- color picker -->
+    <div class="color-picker">
+        <div class="color-button">
+            <i class="fa fa-cogs"></i>
+        </div>
+        <div class="color-container">
+            <p>Choose color:</p>
+            <div class="list-color">
+                <span class="blue" data-color="blue"></span>
+                <span class="red" data-color="red"></span>
+                <span class="green" data-color="green"></span>
+                <span class="yellow" data-color="yellow"></span>
+                <span class="orange" data-color="orange"></span>
+            </div>
+        </div>
+    </div>
+    <!-- end color picker -->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/mbbootstrap/mdb.min.js"></script>
+    <script src="vendor/lightcase/lightcase.js"></script>
+
+    <script src="js/theme.min.js"></script>
+    <script src="js/config-grid.min.js"></script>
+
+    <script src="js/color-picker.min.js"></script>
+</body>
+
+
+<!-- Mirrored from templates.aucreative.co/bemax/blog-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Jun 2019 06:30:09 GMT -->
+</html>

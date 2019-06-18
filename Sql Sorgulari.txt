@@ -1,0 +1,106 @@
+--CREATE TABLE Services(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Title NVARCHAR(250) NOT NULL,
+--	[Image] NVARCHAR(250) NOT NULL,
+--	[Description] NTEXT NOT NULL
+
+--);
+
+--CREATE TABLE Slider(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Photo NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(50) NOT NULL
+--);
+
+
+--CREATE TABLE SliderText(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	[Image] NVARCHAR(250) NOT NULL,
+--	Photo NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(50) NOT NULL
+--);
+
+
+--CREATE TABLE SliderProject(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Photo NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(50) NOT NULL
+--);
+
+
+--CREATE TABLE [Choose](
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	[Image] NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE Working(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE Testiminiol(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Info NVARCHAR(250) NOT NULL,
+--	[Image] NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE Logo(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	[Image] NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE Settings(
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Adress NVARCHAR(250) NOT NULL,
+--	Email NVARCHAR(250) NOT NULL,
+--	Phone NVARCHAR(250) NOT NULL,
+--	Fax NVARCHAR(250) NOT NULL,
+--	Info NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE ImgContent(
+--	Id int identity(1,1) Primary key,
+--	[Image] NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(250) NOT NULL,
+--	TextEnd NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE [Choose](
+--	Id int identity(1,1) primary key,
+--	Icon nvarchar(250) not null,
+--	Title nvarchar(250) not null,
+--	Content nvarchar(250) not null
+--);
+
+--CREATE TABLE Working(
+--	Id int identity(1,1) primary key,
+--	Title NVARCHAR(250) NOT NULL,
+--	[Text] NVARCHAR(250) NOT NULL,
+--	[Image] nvarchar(250) NOT NULL
+
+--);
+
+--CREATE TABLE Logo(
+--	Id int identity(1,1) primary key,
+--	[Image] NVARCHAR(250) NOT NULL
+--);
+
+--CREATE TABLE BlogPost(
+--	Id int identity(1,1) primary key,
+--	TitlePage nvarchar(250) NOT NULL,
+--	[Image] NVARCHAR(250) NOT NULL,
+--	Title NVARCHAR(250) NOT NULL,
+--	Content nvarchar(250) NOT NULL,
+--	Info nvarchar(250) NOT NULL,
+--	[Read] nvarchar(250) NOT NULL
+--);

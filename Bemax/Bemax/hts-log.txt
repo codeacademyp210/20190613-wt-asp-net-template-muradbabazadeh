@@ -1,0 +1,47 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 17 Jun 2019 10:22:03 at http://templates.aucreative.co/bemax/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://templates.aucreative.co/bemax/index.html -O1 "C:\Users\code\Desktop\Bemax\Bemax" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:22:04	Error: 	"Internal Server Error" (500) after 2 retries at link templates.aucreative.co/robots.txt (from primary/primary)
+10:30:12	Warning: 	File not parsed, looks like binary: templates.aucreative.co/bemax/vendor/revolution/css/openhand.cur
+10:30:12	Warning: 	File not parsed, looks like binary: templates.aucreative.co/bemax/vendor/revolution/css/closedhand.cur
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/01.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/02.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/03.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/04.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/05.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/06.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/07.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/08.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/09.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img//svg/arrow_left.svg (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img//svg/arrow_right.svg (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/01.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/02.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 (Internal Server Error) at link templates.aucreative.co/bemax/vendor/img/overlays/03.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img/overlays/04.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img/overlays/05.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img/overlays/06.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img/overlays/07.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img/overlays/08.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img/overlays/09.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:23	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img//svg/arrow_left.svg (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Warning: 	Retry after error 500 () at link templates.aucreative.co/bemax/vendor/img//svg/arrow_right.svg (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"Internal Server Error" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/01.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"Internal Server Error" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/02.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"Internal Server Error" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/03.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/04.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/05.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/06.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/07.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/08.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img/overlays/09.png (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img//svg/arrow_left.svg (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+10:30:24	Error: 	"" (500) after 2 retries at link templates.aucreative.co/bemax/vendor/img//svg/arrow_right.svg (from templates.aucreative.co/bemax/vendor/mbbootstrap/mdb.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 21 seconds : 327 links scanned, 293 files written (13592721 bytes overall) [12849237 bytes received at 25647 bytes/sec], 965784 bytes transferred using HTTP compression in 21 files, ratio 9%, 2.0 requests per connection
+(12 errors, 24 warnings, 0 messages)

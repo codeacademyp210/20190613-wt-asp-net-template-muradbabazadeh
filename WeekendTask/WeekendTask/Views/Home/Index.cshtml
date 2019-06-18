@@ -1,0 +1,349 @@
+﻿@model WeekendTask.Models.WiewModelHome
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!-- End Slider -->
+<!-- #Content -->
+<!-- Slider -->
+<section>
+    <div class="rev_slider_wrapper">
+        <div class="rev_slider" id="slide-1" data-version="5.4.4">
+            <ul>
+                @foreach (var item in Model.sliders)
+                {
+                    <li data-transition="fade">
+                        <img src="~/Public/images/@item.Photo" alt="Work" class="rev-slidebg">
+                        <div class="tp-caption slide-heading-2" data-x="center" data-y="center" data-transform_in="y:-80px;opacity:0;s:800;e:easeInOutCubic;" data-transform_out="y:-80px;opacity:0;s:300;" data-voffset="-70" data-start="900" data-fontsize="['30','30','24', '24']">@item.Title</div>
+                        <div class="tp-caption slide-heading-1" data-x="center" data-y="center" data-transform_in="y:80px;opacity:0;s:800;e:easeInOutCubic;" data-transform_out="y:80px;opacity:0;s:300;" data-start="1300" data-fontsize="['72','72','52','50','46', '42']">@item.Text</div>
+                        <div class="tp-caption" data-x="center" data-y="center" data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;" data-transform_out="y:200px;opacity:0;s:300;" data-voffset="95" data-start="1600">
+                            <a href="#" class="slide-button">Get Started</a>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- End Slider -->
+<!-- Hire us -->
+<section>
+    <div class="section-wrapper bg-blue">
+        <div class="hire-us">
+            <div class="container">
+                <div class="hire-us-container">
+                    <div class="hire-us-text m-b-2">
+                        <p>
+                            We’ve completed more than
+                            <span>100+</span>project for our amazing clients, If you interested?
+                        </p>
+                    </div>
+                    <div class="hire-us-button">
+                        <a href="#">Hire Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Hire Us -->
+<!-- Icon box -->
+<section>
+    <div class="section-wrapper">
+        <div class="container py-50">
+            <div class="row justify-content-center">
+                @foreach (var item in Model.imgContents)
+                {
+                    <div class="col-lg-4 col-md-8">
+                        <div class="iconbox iconbox-style-1">
+                            <div class="iconbox-container">
+                                <div class="iconbox-image">
+                                    <img src="~/Public/images/@item.Image" alt="Image 1">
+                                </div>
+                                <div class="iconbox-content">
+                                    <h4 class="iconbox-content-heading">
+                                        <i class="fa fa-bar-chart"></i>
+                                        @item.Title
+                                    </h4>
+                                    <div class="iconbox-content-body">
+                                        <p>
+                                            @item.Text
+                                        </p>
+                                        <a href="#">
+                                            <i class="fa fa-plus-square"></i>@item.TextEnd
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Icon box -->
+<!-- Icon box -->
+<section>
+    <div class="section-wrapper bg-gray p-t-62 p-b-45">
+        <div class="container">
+            <div class="section-title">
+                <h3>We are bemax</h3>
+                <div class="title-border m-b-67"></div>
+            </div>
+            <div class="row">
+                @foreach (var service in Model.services)
+                {
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="iconbox iconbox-style-2">
+                            <div class="iconbox-container">
+                                <div class="iconbox-image">
+                                    <a href="#">
+                                        <i class="@service.Image"></i>
+                                    </a>
+                                </div>
+                                <div class="iconbox-content">
+                                    <a href="#" class="iconbox-content-heading">@service.Title</a>
+                                    <div class="icon-content-body">
+                                        <p>@service.Description</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+</section>
+<!-- End Iconbox -->
+<!-- Latest BLog-->
+<section>
+    <div class="section-wrapper bg-black-1 p-t-70 p-b-80">
+        <div class="container">
+            <div class="section-title section-title-style-1">
+                <h3>Latest Projects</h3>
+                <div class="title-border m-b-67"></div>
+            </div>
+            <div class="owl-carousel js-owl-nav owl-nav-1" data-items="4" data-loop="true" data-responsive='{"0":{"items":"1"},"576":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"}}'>
+                @foreach (var item in Model.sliderProjects)
+                {
+                    <div class="project">
+                        <div class="project-container">
+                            <div class="project-image">
+                                <img src="~/Public/images/@item.Photo" alt="Project 1">
+                            </div>
+                            <div class="project-content">
+                                <div class="project-content-body">
+                                    <a href="#" class="project-title">@item.Title</a>
+                                    <div class="project-label">
+                                        <a href="#">@item.Text</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Latest Blog -->
+<!-- Why Choose Us -->
+<section>
+    <div class="section-wrapper p-t-62 p-b-95">
+        <div class="container">
+            <div class="section-title">
+                <h3>Why Choose Us</h3>
+                <div class="title-border m-b-46"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="video p-t-10">
+                        <div class="video-image-thumbnail">
+                            <img src="~/Public/images/video_01.jpg" alt="Video">
+                        </div>
+                        <div class="video-play">
+                            <a href="https://www.youtube.com/embed/keDneypw3HY?autoplay=1">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="play-video">
+                            <iframe name="showvideo" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 p-r-5">
+                    @foreach (var item in Model.chooses)
+                    {
+                        <div class="iconbox iconbox-style-3">
+                            <div class="iconbox-container">
+                                <div class="iconbox-content">
+                                    <a href="#" class="iconbox-content-heading">
+                                        <i class="@item.Icon"></i>@item.Title
+                                    </a>
+                                    <div class="iconbox-content-body">
+                                        <p>@item.Content</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Why Choose us -->
+<!-- Hire Us -->
+<section>
+    <div class="section-wrapper bg-gray">
+        <div class="hire-us hire-us-style-1">
+            <div class="container">
+                <div class="row">
+                    @foreach (var item in Model.workings)
+                    {
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div class="hire-us-container">
+                                <div class="section-title">
+                                    <h3>@item.Title</h3>
+                                    <div class="title-border m-b-30"></div>
+                                </div>
+                                <div class="hire-us-text">
+                                    <p>@item.Text</p>
+                                </div>
+                                <div class="hire-us-button">
+                                    <a href="#">Hire Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="hire-us-image">
+                                <img src="~/Public/@item.Image" alt="Image">
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Hire Us -->
+<!-- Latest Blog + Testimonial -->
+<section>
+    <div class="section-wrapper py-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title justify-content-start js-owl-nav-1">
+
+                        <h3 class="text-left">
+                            Latest Blog Post
+                            <span class="au-owl-prev">
+                                <i class="fa fa-angle-left"></i>
+                            </span>
+                            <span class="au-owl-next">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </h3>
+                        <div class="title-border m-b-10"></div>
+                        <div class="owl-carousel" data-items="1" data-loop="true">
+                            @foreach (var item in Model.blogPosts)
+                            {
+                                <div class="blog">
+                                    <div class="blog-container">
+                                        <div class="blog-image">
+                                            <div class="blog-image-container">
+                                                <img src="~/Public/images/@item.Image" alt="Blog">
+                                                <span class="blog-date">
+                                                    March 25, 2018
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="blog-content">
+                                            <a href="#" class="blog-content-title">@item.Title</a>
+                                            <p class="blog-content-text">@item.Content.</p>
+                                            <div class="blog-button">
+                                                <div class="blog-tags">
+                                                    <i class="fa fa-tags"></i>
+                                                    <a href="#">@item.Info</a>
+
+                                                </div>
+                                                <div class="blog-readmore">
+                                                    <a href="#">
+                                                        <i class="fa fa-plus-square"></i>
+                                                        @item.Read
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title justify-content-start js-owl-nav-1">
+                        <h3 class="text-left">
+                            Testimonials
+                            <span class="au-owl-prev">
+                                <i class="fa fa-angle-left"></i>
+                            </span>
+                            <span class="au-owl-next">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </h3>
+                        <div class="title-border m-b-27"></div>
+                        <div class="owl-carousel" data-items="1" data-loop="true">
+
+                            @foreach (var item in Model.testiminiols)
+                            {
+                                <div class="testimonial testi-style-1">
+                                    <div class="testi-container">
+                                        <div class="testi-content">
+                                            <p>@item.Info</p>
+                                        </div>
+                                        <div class="testi-author">
+                                            <div class="testi-author-image">
+                                                <img src="~/Public/images/@item.Image" alt="Alex">
+                                            </div>
+                                            <div class="testi-author-content">
+                                                <a href="#" class="testi-author-name">@item.Title</a>
+                                                <p class="testi-author-job">@item.Text</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Latest Blog -->
+<!-- Partner -->
+<section>
+    <div class="section-wrapper bg-gray-1 py-50">
+        <div class="container">
+            <div class="owl-carousel" data-responsive='{"0":{"items":"1"},"576":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"},"1200":{"items":"6"}}'>
+                @foreach (var item in Model.logos)
+                {
+                    <div class="partner">
+                        <img src="~/Public/images/@item.Image" alt="Partner 02">
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Partner -->
